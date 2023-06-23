@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angu1';
+
+    buttonClicked(){
+      alert('You cannot access to the System');
+    }
+
 }
